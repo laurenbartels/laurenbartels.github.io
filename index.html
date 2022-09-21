@@ -3,48 +3,115 @@
 
 
 <head>
-
-    <style> 
-        body {
-            background-color:cornsilk
-        }
-h2 { color:rgb(255, 162, 177)}
-         </style>
-
     <title> Lauren's beautiful website </title>
 </head>
+
 <body>
-    <div>
+    <div id="all-contents" <div>
         <nav>
+            <h1> Lauren's Amazing Website <3 </h1>
+                <ul>
+                    <li>
+                        <a href=""> Home </a>
+                    </li>
+                    <li>
+                        <a href=""> Portfolio </a>
+                    </li>
+                </ul>
 
 
         </nav>
 
         <main>
+            <div class="sidebar">
+                <img src="img/flower.jpg" width="200" height="300">
+            </div>
 
-            <div>
-                <h2> Lauren Bartels </h2>
-                <p> Student at Ben Franklin </p>
-            </div>
-            <div>
-                <p> 
+            <div class="content">
+
+                <h2> Lauren Bartels</h2>
+                <p> Student at Ben Frankin </p>
+                <div>
                     <h4> Interests: </h4>
-                <!-- interests selection -->
-                <ul>
-                    <li> Working out</li>
-                    <li> Dancing </li>
-                    <li> Learning new languages</li>
-                </ul>
-                </p>
+                    <!-- interests selection -->
+                    <ul>
+                        <li> Working out</li>
+                        <li> Dancing </li>
+                        <li> Learning new languages</li>
+                    </ul>
+
+
+                </div>
             </div>
-            <div>
-                <!-- sidebar section -->
-                <img src="img/flower.jpg" width="300" height="400"
-            </div>
-            </main>
+
+    </div>
+    </div>
+    <div>
+        <!-- sidebar section -->
+
+
+    </div>
+    </main>
     </div>
 
 </body>
+<style>
+    body {
+        background: rgb(253, 231, 248);
+        color: rgb(155, 71, 71);
+        padding: 10px;
+        font-family: arial;
+    }
+    #all-contents {
+        max-width: 800px;
+        margin: auto;
+    }
+
+    /* navigation menu */
+    nav {
+        background: rgb(224, 40, 92);
+        margin: 0 auto;
+        display: flex;
+        padding: 10px;
+    }
+    nav h1 {
+        display: flex;
+        align-items: center;
+        color: rgb(253, 233, 249);
+        flex: 1;
+        margin: 0;
+    }
+    nav ul {
+        list-style-image: none;
+    }
+    nav li {
+        display: inline-block;
+        padding: 0 10px;
+    }
+    nav a {
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+    }
+
+    /* main container area beneath menu */
+    main {
+        background: rgb(245, 238, 219);
+        display: flex;
+    }
+    .sidebar {
+        margin-right: 25px;
+        padding: 10px;
+    }
+    .sidebar img {
+        width: 200px;
+    }
+    .content {
+        flex: 1;
+        padding: 15px;
+    }
+    h2, h3 {
+        margin: 0px;
+    }
+</style>
 
 </html>
- 
